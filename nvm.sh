@@ -46,7 +46,7 @@ nvm()
       make && \
       make install && \
       nvm use $2
-      echo "Installing NPM..."
+      echo "Installing npm..."
       curl http://npmjs.org/install.sh | sh
       cd $START
     ;;
